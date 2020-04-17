@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:padding="4dp"
+    android:layout_margin="5dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:paddingStart="40dp"
+        android:paddingEnd="10dp"
+        />
+
+        <TextView
+            android:id="@+id/stationNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Station Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_marginEnd="5dp"
+            />
+
+        <TextView
+            android:id="@+id/metroTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Metro Time"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:padding="8dp"
+            android:layout_marginStart="5dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
