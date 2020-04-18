@@ -24,7 +24,7 @@
             android:orientation="vertical"
             >
 
-            <EditText
+            <AutoCompleteTextView
                 android:id="@+id/sourceEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
                 android:background="@drawable/edit_text_round_gray_background"
                 />
 
-            <EditText
+            <AutoCompleteTextView
                 android:id="@+id/destinationEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
