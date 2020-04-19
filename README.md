@@ -1,4 +1,6 @@
 **PuneMetro** is an Android application 📱 it is with *Modern Android development* tools. Developed by CyberNerd. 
+![title] (extra/Screenshot_1587164648.png)
+
 
 ## About
 It simply loads **Posts** data from API and stores it in persistence storage (i.e. SQLite Database). Posts will be always loaded from local database. Remote data (from API) and Local data is always synchronized.
