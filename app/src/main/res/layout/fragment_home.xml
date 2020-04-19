@@ -61,7 +61,6 @@
                 android:background="#DA2424"
                 app:fontFamily="casual" android:textStyle="bold" android:textAllCaps="false"
                 android:layout_gravity="center"
-                android:layout_marginBottom="20dp"
                 />
 
             <androidx.recyclerview.widget.RecyclerView
@@ -72,13 +71,17 @@
                 tools:itemCount="4"
                 />
 
-
         </LinearLayout>
-
-
-
-
-
     </RelativeLayout>
+    <ProgressBar
+        android:visibility="invisible"
+        android:id="@+id/progress_bar"
+        android:background="@color/colorAccent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="230dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
