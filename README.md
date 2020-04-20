@@ -25,3 +25,5 @@ It simply loads **Posts** data from API and stores it in persistence storage (i.
 - [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
 - [Gson](https://github.com/google/gson) - A Java serialization/deserialization library to convert Java Objects into JSON and back
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android
+
+## Contribution 🙏🏻 are always Welcome ( fork this repository and make pull request)
