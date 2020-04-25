@@ -5,11 +5,12 @@
 <div align="left">
     <img src="extra/latest1.png" width="300px"</img> 
     <img src="extra/latest2.png" width="300px"</img> 
+    <img src="extra/latest5.png" width="300px"</img>
 </div>
 <div align="left">
-    <img src="latest3.png" width="300px"</img> 
-    <img src=latest4.png" width="300px"</img>
-    <img src=latest5.png" width="300px"</img>
+    <img src="extra/latest3.png" width="300px"</img> 
+    <img src="extra/latest4.png" width="300px"</img>
+    
                                              
 </div>
 
