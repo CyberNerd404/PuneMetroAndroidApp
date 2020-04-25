@@ -29,3 +29,5 @@ It simply loads **Posts** data from API and stores it in persistence storage (i.
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android
 
 ## Contribution 🙏🏻 are always Welcome ( fork this repository and make pull request)**
+
+<a href="https://www.buymeacoffee.com/LJ9VFRB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
