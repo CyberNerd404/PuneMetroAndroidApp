@@ -3,6 +3,7 @@
     package="com.cypherx.punemetro">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,6 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8526043973479269~9892234790"
+            />
+
+        <activity android:name=".OtherActivity">
+
+        </activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
