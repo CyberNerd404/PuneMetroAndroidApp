@@ -12,4 +12,60 @@
     <string name="menu_slideshow">About</string>
 
     <string name="home_second">Home Second</string>
+
+    <!--
+    PCMC, Tukaram Nagar, Bhosari, Kasarwadi, Fugewadi, Dapodi, Bopodi, Khadki,
+    Range Hill, Shivaji Nagar, ASI, PMC, Budhwar Peth, Mandai, Swargate
+
+    Vanaz, Anand Nagar, Ideal Colony, Nal Stop, Garware College, Deccan Gymkhana, Sambhaji Park,
+     PMC, Civil Court, Mangalwar Peth,
+     Pune Railway Station, Ruby Clinic, Bund Garden, Yerawada, Kalyani Nagar, Ramwadi
+ -->
+
+    <string-array name="Stations">
+        <item>PCMC</item>
+        <item>Tukaram Nagar</item>
+        <item>Bhosari</item>
+        <item>Ruby Clinic</item>
+        <item>Bund Garden</item>
+        <item>Yerwada</item>
+        <item>Kalyani Nagar</item>
+        <item>Ramwadi</item>
+        <item>Pune Railway Station</item>
+        <item>Bhosari</item>
+        <item>Kasarwadi</item>
+        <item>Fugewadi</item>
+        <item>Dapodi</item>
+        <item>Bopodi</item>
+        <item>Khadki</item>
+        <item>Range Hill</item>
+        <item>Shivaji Nagar</item>
+        <item>ASI</item>
+        <item>PMC</item>
+        <item>Budhwar Peth</item>
+        <item>Mandai</item>
+        <item>Vanaz</item>
+        <item>Anand Nagar</item>
+        <item>Ideal Colony</item>
+        <item>Nal Stop</item>
+        <item>Gharware Collge</item>
+        <item>Deccan GymKhana</item>
+        <item>Sambhaji Park</item>
+        <item>Civil Court</item>
+        <item>Magalwar Peth</item>
+        <item>Swargate</item>
+
+    </string-array>
+
+    <string name="infotitle">This is an Unofficial Pune Metro App</string>
+    <string name="info3">Pune Metro is in Under Construction to serve so the Data is not Available </string>
+    <string name="info2">Station Info – Selecting a station will give you various useful information about the station like First and Last train timings, Platforms, Gates and directions, contact numbers, Tourist spots near that station, parking, feeder services etc</string>
+    <string name="info1">Route Between Stations- Selecting the starting and destination stations will display the user the Fares, Distance, Approximate Travel time, stations in between with change over station and the route map with plotting of the route on the map. </string>
+    <string name="about">Pune Metro app provides the customers of metro services with lot of useful information that helps in using the Metro Services. Following are the different sections in the app and the information available in them</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="official_pune_metro_project">Official Pune Metro Project</string>
+    <string name="feedback_system_coming_soon">Feedback System Coming Soon</string>
+    <string name="developed_by_cybernerd404">Developed by CyberNerd404</string>
+
 </resources>

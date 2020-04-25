@@ -10,69 +10,69 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="48dp"
         android:background="#000000"
-        android:layout_marginTop="50dp"
-        >
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ffffff"
-            android:padding="16dp"
             android:orientation="vertical"
-            >
+            android:padding="16dp">
 
             <AutoCompleteTextView
                 android:id="@+id/sourceEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Source"
-                android:textColorHint="#000000"
-                android:padding="12dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edit_text_round_gray_background"
                 android:drawableLeft="@drawable/ic_train_black_24dp"
                 android:drawablePadding="16dp"
-                android:layout_marginBottom="20dp"
-                app:fontFamily="casual" android:textStyle="bold" android:textAllCaps="false"
-                android:background="@drawable/edit_text_round_gray_background"
-                />
+                android:hint="Source"
+                android:padding="12dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                app:fontFamily="casual" />
 
             <AutoCompleteTextView
                 android:id="@+id/destinationEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Destination"
-                android:textColorHint="#000000"
-                android:padding="12dp"
                 android:layout_marginBottom="20dp"
+                android:background="@drawable/edit_text_round_gray_background"
                 android:drawableLeft="@drawable/ic_train_black_24dp"
                 android:drawablePadding="16dp"
-                app:fontFamily="casual" android:textStyle="bold" android:textAllCaps="false"
-                android:background="@drawable/edit_text_round_gray_background"
-                />
+                android:hint="Destination"
+                android:padding="12dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                app:fontFamily="casual" />
 
             <Button
                 android:id="@+id/searchmetroButtom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#ffffff"
-                android:text="Search Metro"
-                android:background="#DA2424"
-                app:fontFamily="casual" android:textStyle="bold" android:textAllCaps="false"
                 android:layout_gravity="center"
-                />
+                android:background="#DA2424"
+                android:text="Search Metro"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                app:fontFamily="casual" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycleViewSearchMetro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:listitem="@layout/metrolist_home"
                 tools:itemCount="4"
-                />
+                android:background="#000000"
+                tools:listitem="@layout/metrolist_home" />
 
         </LinearLayout>
     </RelativeLayout>
+
     <ProgressBar
         android:visibility="invisible"
         android:id="@+id/progress_bar"
