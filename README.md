@@ -1,4 +1,6 @@
 **PuneMetro** is an Android application 📱 it is with *Modern Android development* tools. Developed by CyberNerd. 
+<a href="https://play.google.com/store/apps/details?id=com.cypherx.punemetro"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height=60px /></a>
+
 
 ## support our work and do Star this Repository
 
